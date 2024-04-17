@@ -61,7 +61,7 @@ Pull Request:
 	Añadir titulo descriptivo y descripccion de los cambios
 	Los compis revisan los cambios y luego se fusiona, dandole a Merge pull request
 
-La otra opción es hacer una fusión sin pull request:
+La otra opción es hacer una fusión sin pull request: 
 	1. Ir a la rama principal y actualizarla
 		git checkout main
 		git pull origin main
@@ -82,6 +82,9 @@ Ahora si queremos eliminar la rama:
 		git push origin --delete nombre-de-la-rama
 
 Y ya estaria
+
+Si estoy trabajando en mi Banch y quiero subir los cambios:
+1. git checkout main #
 	
 
 
