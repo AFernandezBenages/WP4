@@ -66,7 +66,7 @@ La otra opción es hacer una fusión sin pull request:
 		git checkout main
 		git pull origin main
 	2. Fusionar rama con main
-		git merge new_Feature # new_Feature es el nombre de la rama
+		git merge new_Feature # new_Feature es el nombre del brach
 
 	Ahora se resuelven conflictos si los ahi
 	3. Guardar cambios
