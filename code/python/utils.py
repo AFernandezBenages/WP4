@@ -1,8 +1,10 @@
 import yaml
 
 def getConfiguration(path):
-    with open("example.yaml") as stream:
+    with open(path, 'r') as f:
         try:
-            print(yaml.safe_load(stream))
+            config = yaml.safe_load(f)
+            return config
         except yaml.YAMLError as exc:
             print(exc)
+    
