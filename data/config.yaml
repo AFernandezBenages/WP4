@@ -1,0 +1,19 @@
+weatherbit:
+  latitude: 41.32062
+  longitude: 2.0105984
+  key : '721fef6a25f1470bbd45601158e5c711'
+  start_date: None
+  end_date: None
+
+training:
+  trainingSize: 0.8
+  testSize: 0.2
+  save_path: '/results/xgboost_model.pkl'
+
+xgboost:
+  max_depth: 7
+  gamma: 7
+  n_estimators: 1300
+  colsample_bytree: 0.7
+  colsample_bynode: 0.7
+  learning_rate: 0.005

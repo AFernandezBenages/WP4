@@ -19,7 +19,16 @@
   </br>
 </ul>
 
-#### Producción
-<ul>
-  <il></il>
-</ul>
+### YAML File:
+#### Training: 
+- trainingSize
+- validationSize
+- testSize
+
+### Validation:
+- n_splits
+
+#### Prediction:
+- fecha de inicio
+- fecha de fin
+  
