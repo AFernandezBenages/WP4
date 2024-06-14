@@ -41,6 +41,8 @@ class Model():
             #Save new configuration parameters
             utils.saveConfiguration(self.params)
 
+            #Train Model
+            self.train()
 
             print("Clase inicializada correctamente.")
         except:
