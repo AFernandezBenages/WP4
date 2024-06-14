@@ -21,6 +21,6 @@ def saveConfiguration(path, config):
 def addNLags(df, lags):
     lag_df= df.copy()
     for i in range(1, lags + 1):
-        lag_df[f'lag_{i}'] = lag_df["Demand"].shift(i * 24).fillna(0)
+        lag_df[f'lag_{i}'] = lag_df["Demand"].shift(i * 96).fillna(0)
     
     return lag_df.fillna(0)
