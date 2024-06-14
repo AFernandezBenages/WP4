@@ -14,7 +14,7 @@ class Dataset():
 
     def getMeteoDataset(self):
         latitud = self.params[""]
-        longitud = self.params[]
+        longitud = self.params[""]
         pass
     
 

@@ -5,11 +5,9 @@ weatherbit:
   start_date:
   end_date: 
 
-
 training:
-  trainingSize: 0.6
-  validationSize: 0.6
-  testSize: 0.6
+  trainingSize: 0.8
+  testSize: 0.2
 
 validation:
   n_splits: 6
@@ -18,11 +16,10 @@ prediction:
   startDate: None
   endDate: None
 
-model:
-  xgboost:
-    max_depth: 7
-    gamma: 7
-    n_estimators: 1300
-    colsample_bytree: 0.8
-    colsample_bynode: 0.8
-    learning_rate: 0.01
+xgboost:
+  max_depth: 7
+  gamma: 7
+  n_estimators: 1300
+  colsample_bytree: 0.7
+  colsample_bynode: 0.7
+  learning_rate: 0.05
