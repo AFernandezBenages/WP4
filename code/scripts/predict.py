@@ -42,7 +42,9 @@ args = parser.parse_args()
 #Cargar Modelo
 model = joblib.load(args.ruta_modelo)
 
+#Generar X_test
+X_test= None
 #Realizar Predicción
-y_pred = model.predict()
+y_pred = model.predict(X_test)
 
 #Guardar Predicción en base de datos
